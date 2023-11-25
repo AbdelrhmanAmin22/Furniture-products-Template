@@ -556,6 +556,7 @@ nav .nav-down .icons a:hover {
 /* mobile-menu */
 
 .mobile-menu-view {
+    displaye: block;
     min-width: 280px;
     background-color: rgb(255, 255, 255);
     position: fixed;
@@ -573,6 +574,7 @@ nav .nav-down .icons a:hover {
     -o-transition: all 0.5s ease-in-out;
 }
 .hide-menu {
+    displaye: none;
     margin-left: -400px;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
